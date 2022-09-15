@@ -5,14 +5,16 @@ namespace Scripts.Core
 {
     public class DialogueMover : MonoBehaviour
     {
+        public static DialogueMover Instance;
+
         [SerializeField] private Story _story;
 
         private DialogueSystem _dialogueSystem;
-        private int _plotIndex = 0;
+        private int _plotIndex;
         
         private void Start()
         {
-            _dialogueSystem = DialogueSystem.instance;
+            _dialogueSystem = DialogueSystem.Instance;
             Say(_story.Plot[_plotIndex++]);
         }
 
@@ -32,13 +34,23 @@ namespace Scripts.Core
             }
         }
 
-        private void Say(string speech)
+        public void Say(string speech)
         {
             string[] parts = speech.Split(":");
             string currentSpeech = parts[0];
             string speaker = (parts.Length >= 2) ? parts[1] : "";
             
             _dialogueSystem.Say(currentSpeech, speaker);
+        }
+        
+        public void Say(string speech, string speaker)
+        {
+            _dialogueSystem.Say(speech, speaker);
+        }
+        
+        private void Awake()
+        {
+            Instance = this;
         }
     }
 }

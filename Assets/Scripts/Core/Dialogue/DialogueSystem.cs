@@ -6,10 +6,11 @@ using UnityEngine;
 
 public class DialogueSystem : MonoBehaviour
 {
-    public static DialogueSystem instance;
+    public static DialogueSystem Instance;
     public bool isSpeaking => speaking != null;
     public bool isWaitingForUserInput { get; private set; }
     
+    [SerializeField] private GameObject _speechSystem;
     [SerializeField] private GameObject _speechPanel;
     [SerializeField] private TMP_Text _speakerNameText;
     [SerializeField] private TMP_Text _speechText;
@@ -21,6 +22,12 @@ public class DialogueSystem : MonoBehaviour
     {
         StopSpeaking();
         speaking = StartCoroutine(Speaking(speech, speaker));
+    }
+
+    public void Close()
+    {
+        StopSpeaking();
+        _speechSystem.SetActive(false);
     }
     
     private string DetermineSpeaker(string speaker)
@@ -68,6 +75,6 @@ public class DialogueSystem : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        Instance = this;
     }
 }
