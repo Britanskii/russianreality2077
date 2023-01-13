@@ -19,11 +19,12 @@ namespace Scripts.Core.Character
             {
                 return characters[index];
             }
-            else if (createCharacterIfDoesNotExist)
+            if (createCharacterIfDoesNotExist)
             {
                 return CreateCharacter(name, enableCreatedCharacterOnStart);
             }
-
+            
+            Debug.LogError("The character doesn't exist");
             return null;
         }
 

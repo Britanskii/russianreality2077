@@ -1,0 +1,8 @@
+﻿Raelin "Hello! How are you?" setBackground(sleepingnight)
+"Anime for best people." setFace(Raelin,happy)
+"I'm joking" move(Raelin,0.6)
+"Or not..." move(Raelin,0.4)
+"Or yes" move(Raelin,0.45)
+"More text!!!" move(Raelin,0.5) flip(Raelin)
+"Transition!" tBackground(hallwaynight,blur)
+Raelin "Hello!{a} How are you?{c}Maybe we'll start to...{wa 1} writing novel?" setBackground(sleepingnight)

@@ -1,0 +1,1 @@
+﻿Raelin "Come, [Player]! We must find the [tBackground(hallwaynight,blur)][textSpeed 15,1]slow moving[/textSpeed][tBackground(sleepingnight,blur)] slug!{a} And bring the [holyRelic]" setBackground(sleepingnight)

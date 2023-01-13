@@ -6,7 +6,7 @@ namespace TEMP.Stories
     {
         public override string[] Plot { get; } =
         {
-            "Hello, i am a test story for game:Author",
+            "<i>Hello</i>, i am a <color=red>test</color> story for game:Author",
             "I created for novel test",
             "Bla-bla-bla-bla-bla",
             "Bla-bla-bla-bla"

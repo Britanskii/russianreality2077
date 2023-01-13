@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ceaab4d-4823-460e-96b4-974eec9e21c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Audio/Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Audio/AudioManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Audio/AudioManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Character/MoveConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Character/MoveConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GlobalFunctions/GlobalFunctions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GlobalFunctions/GlobalFunctions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers/BCFC.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers/BCFC.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers/Layer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers/Layer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers/VideoLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GroundLayers/VideoLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Text.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Text/TagManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Text/TagManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Text/TextArchitect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Text/TextArchitect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TEMP/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TEMP/Audio/AudioTesitng.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TEMP/Audio/AudioTesitng.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TEMP/Layers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TEMP/Layers/LayerTesting.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TEMP/Layers/LayerTesting.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/Character[Kairi].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/Character[Kairi].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Kairi.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Kairi/Kairi_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/Kairi/Kairi_sprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Character/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Character/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Dialogue/DialogueMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Dialogue/DialogueMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TEMP/Characters/CharacterTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TEMP/Characters/CharacterTest.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2HUbUIsom1R1O7LhIhtAkvstetO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ohink/UnityProjects/Russian Reality 2077&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ceaab4d-4823-460e-96b4-974eec9e21c5" name="Changes" comment="" />
+      <created>1668342624523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668342624523</updated>
+      <workItem from="1668342626302" duration="29000" />
+      <workItem from="1668430902058" duration="88000" />
+    </task>
+    <servers />
+  </component>
+</project>
